@@ -1,3 +1,12 @@
+server:
+  port: 8000
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
 
 # jsp는 src/main/resources/static에 저장될 수 없다. 그래서 src/main/webapp/WEB-INF/views로 경로를 설정을 한다.
 spring:
